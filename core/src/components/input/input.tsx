@@ -309,6 +309,7 @@ export class Input implements ComponentInterface {
 
   private clearTextInput = () => {
     this.value = '';
+    this.setFocus();
   }
 
   private focusChanged() {
